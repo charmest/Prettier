@@ -1,0 +1,44 @@
+# Prettier configuration
+
+# Maximum width of a line. 
+# Default value : 80
+printWidth: 50
+      
+# Tubulation width. 
+# Default value : 2
+tabWidth: 10
+      
+overrides:
+  - files: "*.java"
+    options:
+      # Maximum width of a line. 
+      # Default value : 80
+      printWidth: 140
+      
+      # Tubulation width. 
+      # Default value : 2
+      tabWidth: 4
+      
+      # Use tabulation or spacesto indent lines. 
+      # Default value : false
+      useTabs: true
+      
+      # Add a semicolon at the end of every statement. 
+      # Default value : true
+      semi: true
+      
+      # Apply single quotes or double quotes. 
+      # Default value : false
+      singleQuote: false
+      
+      # Finals commas in an array for example. 
+      # Default value : "es5"
+      trailingComma: "all"
+      
+      # Spacing between the bracket and the next character. 
+      # Default value : true
+      bracketSpacing: false
+      
+      # Put parenthesis arround arrow functions. 
+      # Default value : "always"
+      arrowParens: "always"
